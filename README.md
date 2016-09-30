@@ -59,6 +59,14 @@ a string of comma-separated values:
 babel_js_extensions: 'es6, babel, jsx' # Do not process .js files
 ```
 
+Babel compiler options:
+
+```yml
+babel_js_options:
+  compact: true
+  comments: false
+```
+
 ## Contributing
 
 1. Fork it (`http://github.com/thejameskyle/jekyll-babel/fork`)
